@@ -2,7 +2,7 @@
  it is a Web Application for management absences of students.
 
 ## Technologies and Frameworks used:
-* [laravel 7](https://laravel.com/) 
+* [laravel 8](https://laravel.com/) 
 * [Bootstrap](https://getbootstrap.com/)
 * [PHP](https://www.php.net/)
 
@@ -25,7 +25,7 @@ There are four kind of accounts :
                 
 To get the project up and running on your local machine, do the following. 
 
-- clone it :``` git clone https://github.com/ayoubmouallim/Gestion-Absence.git ```
+- clone it :``` git clone https://github.com/omd34/Gestion-Absence.git ```
 - Run composer install, to install dependencies
 - Edit the created .env file at the root of your project, to add database credentials, etc
 - To setup your database tables, run this command ```php artisan migrate ```in your cmd 
