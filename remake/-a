@@ -1,0 +1,113 @@
+[33mcommit 2e7b4546d94dd07bc16835fc0a5fede47d8f0675[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: M.AYOUB <56737917+ayoubmouallim@users.noreply.github.com>
+Date:   Thu Jan 21 20:12:03 2021 +0100
+
+    Update README.md
+
+[33mcommit 50a4322c16abf6b379f3da41a8e62a711536ce8f[m[33m ([m[1;31morigin/EspaceProf[m[33m)[m
+Author: ayoub <ayoubmouallim@gmail.com>
+Date:   Thu Oct 22 21:45:56 2020 +0100
+
+    filter absence
+
+[33mcommit 660e05f5d46e474657f7be7e9fded87affd6c6ad[m
+Author: ayoub <ayoubmouallim@gmail.com>
+Date:   Wed Oct 21 14:47:36 2020 +0100
+
+    clean code
+
+[33mcommit 7ec14dba0175ae995a91b81aa7f4161dcad5d7d1[m
+Author: a-maslah <maslahamine20@gmail.com>
+Date:   Wed Oct 21 13:51:15 2020 +0100
+
+    EspaceProf + affichage absence
+
+[33mcommit 44fcc336d6ecc663ad85e433a1036a46422357c5[m
+Author: a-maslah <maslahamine20@gmail.com>
+Date:   Sat Oct 17 15:14:10 2020 +0100
+
+    historiqueAbsence de chaque Prof
+
+[33mcommit c264ff0825fd98361a126e954751369666581482[m
+Author: a-maslah <maslahamine20@gmail.com>
+Date:   Wed Oct 14 12:35:45 2020 +0100
+
+    NoterAbsence etudiants de la filiere / Deconnecter button
+
+[33mcommit d56c0474ffdbea9eb5e8e94e1d87a245ba261389[m
+Author: ayoub <ayoubmouallim@gmail.com>
+Date:   Tue Oct 13 14:36:23 2020 +0100
+
+    creation seance + list seance
+
+[33mcommit 7b3b6097b60840f739d5a4d9307f5239b59ce8ee[m
+Author: yassine mabrouk <mabroukyassine70@gmail.com>
+Date:   Tue Oct 13 12:34:02 2020 +0100
+
+    modifier espace enseignant
+
+[33mcommit 5c2775dd31170a2ed27a14232f1d7a5bd0405bb9[m
+Author: yassine mabrouk <mabroukyassine70@gmail.com>
+Date:   Mon Oct 12 21:31:27 2020 +0100
+
+    ajouter l'espace du prof
+
+[33mcommit 2c10a153a7fa77007d3642d145d95203853469c7[m
+Author: a-maslah <maslahamine20@gmail.com>
+Date:   Sat Oct 10 23:55:48 2020 +0100
+
+    redirection vers les pages prof etuidnat adminstration
+
+[33mcommit 54e61cf4d999e09d4417adbfaf6765321efea51d[m
+Author: a-maslah <maslahamine20@gmail.com>
+Date:   Fri Oct 9 19:54:14 2020 +0100
+
+    ajouter casade et gestion des prof et le seeder Role
+
+[33mcommit 2cb0caf4cfcf9eac3f3edc670b2a1910d771cf3f[m
+Author: yassine mabrouk <mabroukyassine70@gmail.com>
+Date:   Thu Oct 8 15:54:59 2020 +0100
+
+    gestion des etudiants
+
+[33mcommit eb0bf26138e3462bdb4bb9e3fb22b6f8abead7b2[m
+Author: M.AYOUB <56737917+ayoubmouallim@users.noreply.github.com>
+Date:   Tue Oct 6 22:30:51 2020 +0100
+
+    Update README.md
+
+[33mcommit 74418a700d0d1c1355f03e2f03ffde6696b50449[m
+Author: ayoub <ayoubmouallim@gmail.com>
+Date:   Tue Oct 6 22:27:03 2020 +0100
+
+    gestion matiere
+
+[33mcommit 4a1001aec3727c9113e0d6249eed2dec6698f9db[m
+Author: a-maslah <maslahamine20@gmail.com>
+Date:   Tue Oct 6 16:50:04 2020 +0100
+
+    form ajouter prof
+
+[33mcommit 28d1e2a1e0a10b3abfea59a97e4a241181b1cc87[m
+Author: a-maslah <maslahamine20@gmail.com>
+Date:   Sun Oct 4 18:01:40 2020 +0100
+
+    seeder base de donne
+
+[33mcommit 1cc85fbcd8087b731cfb8807179696c8efd2a8e1[m
+Author: a-maslah <maslahamine20@gmail.com>
+Date:   Sun Oct 4 13:14:32 2020 +0100
+
+    Creation de la base de donnee
+
+[33mcommit a783f386891ef2877bb128606eb03eeaf6be11c7[m
+Author: a-maslah <maslahamine20@gmail.com>
+Date:   Fri Oct 2 17:29:38 2020 +0100
+
+    ststem auth liaison
+
+[33mcommit f8d37a809f6a186209850ac58a2feb3a3c51ea99[m
+Author: ayoub <ayoubmouallim@gmail.com>
+Date:   Thu Oct 1 23:15:16 2020 +0100
+
+    admin dashboard
