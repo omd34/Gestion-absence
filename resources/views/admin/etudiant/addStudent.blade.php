@@ -50,31 +50,39 @@
                  @if (Session::has('success'))
                      <div class="alert alert-danger"> {{ Session::get('success') }} </div>
                  @endif
-                 <div class="row">
+                <div class="row">
                   <div class="col-md-6">
-                     <div class="form-group">
-                  <label>CNE</label>
-                  <input type="text" name="cne" class="form-control">
-                 </div>
-                <!-- /.form-group -->
-                <div class="form-group">
-                    <label>Prénom</label>
-                    <input type="text" name="prenom" class="form-control">
-                  </div>
-              </div>
+                        <div class="form-group">
+                          <label>Email:</label>
+                          <input type="text" name="email" class="form-control">
+                       </div>
+                       <div class="form-group">
+                          <label>Mot de passe</label>
+                          <input type="text" name="mdp" class="form-control">
+                       </div>
 
-              <div class="col-md-6">
-                 <div class="form-group">
-                  <label>Nom</label>
-                  <input type="text" name="nom" class="form-control ">
-                 </div>
-                <!-- /.form-group -->
-                  <div class="form-group">
-                    <label>Numero de Telephone</label>
-                    <input type="text" name="phone" class="form-control ">
+                  </div>   
+                  <div class="col-md-6">
+                       <div class="form-group">
+                          <label>Telephone</label>
+                          <input type="text" name="phone" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Matricule</label>
+                            <input type="text" name="cne" class="form-control">
+                        </div>
                   </div>
-                <!-- /.form-group -->
-              </div>
+                
+                  <div class="col-md-6">
+                    <div class="form-group">
+                        <label>Prénom</label>
+                        <input type="text" name="prenom" class="form-control">
+                      </div>
+                      <div class="form-group">
+                        <label>Nom</label>
+                        <input type="text" name="nom" class="form-control ">
+                      </div>
+                  </div>
               <div class="col-md-6">
               <div class="form-group">
                 <label>Filiere</label>

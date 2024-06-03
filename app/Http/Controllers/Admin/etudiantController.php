@@ -4,12 +4,13 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
 use App\Matiere;
 use App\Filiere;
 use App\Semestre;
 use App\Enseignant;
 use App\Etudiant;
-
+use App\User;
 class etudiantController extends Controller
 {
     //la fonction qui permet de retourner le data du filiere u 
@@ -36,9 +37,24 @@ class etudiantController extends Controller
             'cne'=> 'required ',
             'prenom'=>'required',
             'phone'=>'required|max:10',
+            'mdp'=>'required',
+            'email'=>'required'
             ]);         
         // enregistrer les données dans la base de données 
-        try {
+    
+           
+            try{
+                $user = new User;
+                $email= $request->input('email');
+                $password =  Hash::make($request->input('mdp'));
+                $name= strstr($email,'@',true);
+                $user->id_role =4 ;
+                $user->name = $name;
+                $user->email = $email;
+                $user->password =$password;
+        
+                $user->save();
+                $id_user = $user->id;
             Etudiant::create(
                 [
                     'cne' => $request->cne,
@@ -46,7 +62,7 @@ class etudiantController extends Controller
                     'prenom_etu' => $request->prenom,
                     'phone_etu' => $request->phone,
                     'id_filiere' => $request->filiere,
-                    'id_user'=> 4
+                    'id_user'=> $id_user,
                 ]
                 );
                 //afficher un message de success si  les données des etudiants sont bein enregistrées 

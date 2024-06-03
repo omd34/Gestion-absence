@@ -5,6 +5,10 @@ namespace App\Http\Controllers\Etudiant;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Declaration;
+use App\Etudiant;
+use App\Absence;
+use App\Seance;
+use Auth;
 class EtudiantController extends Controller
 {
     
@@ -25,15 +29,15 @@ class EtudiantController extends Controller
     // afficher l'historique d'absence 
     public function historiqueAbsence()
     {
-        $id_prof= Enseignant::select('id')->where('id_user','=',auth::user()->id)->get()[0]->id;
+        $id_etu=Etudiant::select('id')->where('id_user','=',auth::user()->id)->get()[0]->id;
         
-        $matieres = Matiere::where('id_ens','=',$id_prof)->get();
-        $seances = Seance::with('seancematiere')->where('id_ens','=',$id_prof)
+        $matieres = Absence::where('id_etu','=',$id_etu)->get();
+        $seances = Seance::with('seancematiere')
         ->where('active',1)
         ->get();
             $absence= array();
         foreach($seances as $key=>$s){
-            $absence[$key] = $s->absences()->get();   
+            $absence[$key] = $s->absences()->get()->where('id_etu','=',$id_etu);
         }
 
         
