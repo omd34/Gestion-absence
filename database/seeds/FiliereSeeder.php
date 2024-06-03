@@ -14,7 +14,7 @@ class FiliereSeeder extends Seeder
         //
         App\Filiere::create([
             'id' => 1,
-            'nom_filiere' => 'GLSID2',
+            'nom_filiere' => 'GL',
             'id_dep' => 1,
         
      ]);
