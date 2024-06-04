@@ -16,7 +16,7 @@ class CreateFilieresTable extends Migration
         Schema::create('filieres', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->engine = 'InnoDB';
-            $table->string('nom_filiere',30);
+            $table->string('nom_filiere',65);
             $table->timestamps();
         });
     }
