@@ -23,6 +23,10 @@ class ExampleTest extends TestCase
     {
         $response = $this->get('/a');
 
-        $response->assertStatus(400);
+        $response->assertStatus(420);
+    }
+    public function test3(){
+        $response=$this->auth();
+
     }
 }
