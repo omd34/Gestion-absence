@@ -25,4 +25,8 @@ class ExampleTest extends TestCase
 
         $response->assertStatus(400);
     }
+    public function test3(){
+        $response=$this->auth();
+
+    }
 }
