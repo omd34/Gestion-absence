@@ -62,6 +62,9 @@ Route::get('/historiqueAbsence', 'EtudiantController@historiqueabsence')->name('
 //Sauvegardre la declaration de l'eleve
 Route::post('/save-declaration', 'EtudiantController@saveDeclaration')->name('save.declaration');
 
+
+
+
 });
 
 
@@ -71,5 +74,8 @@ Route::post('/save-declaration', 'EtudiantController@saveDeclaration')->name('sa
 
 
 
+
 Route::get('/email/resend', 'Auth\VerificationController@resend')->name('verification.resend');
 Route::get('/email/verify/{id}/{hash}', 'Auth\VerificationController@verify') ->name('verification.verify');
+
+

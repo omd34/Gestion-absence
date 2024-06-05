@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                   <h5> BIENVENUE DANS NOTRE SITE DE GESTION DES ABSENCES EN LIGNES !</h5>
                 </div>
 
                 <div class="links">

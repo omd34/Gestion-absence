@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "815505077913",
+    "firebase_url": "https://absence-management-be4a9-default-rtdb.firebaseio.com",
+    "project_id": "absence-management-be4a9",
+    "storage_bucket": "absence-management-be4a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815505077913:android:ff73e6c0531b0e89082a08",
+        "android_client_info": {
+          "package_name": "com.example.absencemanagementapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815505077913-fht786jg8s9dhondp6bjven1hagfpek9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.absencemanagementapp",
+            "certificate_hash": "f2c783b73dd586c939587c18c87c9c7ea38a4d1c"
+          }
+        },
+        {
+          "client_id": "815505077913-u37bnj7b2tmi2an7igb8jm01d8culjj8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLcjAvAskZTz3wLCpIossARLHynPidrqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815505077913-u37bnj7b2tmi2an7igb8jm01d8culjj8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
