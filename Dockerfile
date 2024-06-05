@@ -34,4 +34,4 @@ RUN php artisan serve
 EXPOSE 9000
 
 # Start server
-CMD ["php-fpm"]
+CMD ["php-fpm","artisan"]
